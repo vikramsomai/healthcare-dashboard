@@ -27,17 +27,9 @@
 .dashboard-right {
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
-
+  padding-top: 20px;
   background-color: #f5f9ff;
   padding-top: 130px;
-}
-.main-section {
-  margin-top: 50px;
-  display: flex;
-  width: 100%;
-  gap: 20px;
-  justify-content: center;
-  align-items: flex-start;
 }
 
 .activity-feed-header {
@@ -123,12 +115,6 @@
   }
 }
 
-@media (max-width: 565px) {
-  .main-section {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Mobile Large: 480px - 767px */
 @media (max-width: 767px) and (min-width: 480px) {
   .dashboard-main {
@@ -162,22 +148,11 @@
     width: 550px;
   }
 }
-/* @media (max-width: 600px) {
-  .main-section {
-    width: 450px;
-  }
-} */
+
 /* Mobile Small: 320px - 479px */
 @media (max-width: 479px) {
   .dashboard-main {
     padding: 16px;
-  }
-  .main-section {
-    margin-left: 0px;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
   }
 
   .dashboard-content {

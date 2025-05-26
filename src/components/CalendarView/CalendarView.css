@@ -48,7 +48,9 @@
   font-weight: 600;
   padding: 8px 4px;
 }
-
+.navigation-controls {
+  margin-right: 20px;
+}
 .calendar-date {
   text-align: center;
   font-weight: 600;
