@@ -223,6 +223,10 @@
 @media (max-width: 479px) {
   .health-status-cards {
     gap: 10px;
+    width: 90%;
+  }
+  .health-status-card {
+    width: 100%;
   }
   .progress-track {
     height: 10px;

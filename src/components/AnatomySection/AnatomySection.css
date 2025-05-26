@@ -291,8 +291,15 @@
 @media (max-width: 479px) {
   .anatomy-section {
     height: 300px;
-    width: 320px;
+    width: 250px;
     padding: 12px;
+  }
+  .health-indicator.heart {
+    right: 2% !important;
+    top: 25% !important;
+  }
+  .health-indicator.legss {
+    left: 6% !important;
   }
   .anatomy-placeholder img {
     object-fit: cover;
