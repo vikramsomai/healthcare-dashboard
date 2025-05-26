@@ -18,12 +18,12 @@ const AnatomySection = ({ healthIndicators }) => {
           >
             {indicator.id === "heart" && (
               <span className="indicator-icon">
-                <img src="src/assets/images/heart.png" alt="Heart Icon" />
+                <img src="images/heart.png" alt="Heart Icon" />
               </span>
             )}
             {indicator.id === "legss" && (
               <span className="indicator-icon">
-                <img src="src/assets/images/leg.png" alt="Leg Icon" />
+                <img src="images/leg.png" alt="Leg Icon" />
               </span>
             )}
             <span className="indicator-text">{indicator.name}</span>

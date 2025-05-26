@@ -56,7 +56,7 @@ export const appointmentCards = [
     title: "Dentist",
     time: "09:00-11:00",
     doctor: "Dr. Cameron Williamson",
-    icon: "src/assets/images/teeth.png",
+    icon: "images/teeth.png",
     color: "indigo",
   },
   {
@@ -64,7 +64,7 @@ export const appointmentCards = [
     title: "Physiotherapy Appointment",
     time: "11:00-12:00",
     doctor: "Dr. Kevin Dones",
-    icon: "src/assets/images/muscle.png",
+    icon: "images/muscle.png",
     color: "light",
   },
 ];

@@ -19,7 +19,7 @@ export const healthStatusCards = [
     name: "Lungs",
     date: "26 Oct 2021",
     status: 80,
-    image: "src/assets/images/lungs.png",
+    image: "images/lungs.png",
     color: "#ef4444",
   },
   {
@@ -27,7 +27,7 @@ export const healthStatusCards = [
     name: "Teeth",
     date: "26 Oct 2021",
     status: 80,
-    image: "src/assets/images/teeth.png",
+    image: "images/teeth.png",
     color: "#93D6CB",
   },
   {
@@ -35,7 +35,7 @@ export const healthStatusCards = [
     name: "Bone",
     date: "26 Oct 2021",
     status: 80,
-    image: "src/assets/images/bone.png",
+    image: "images/bone.png",
     color: "#F5654F",
   },
 ];

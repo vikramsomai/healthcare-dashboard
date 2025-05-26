@@ -26,7 +26,7 @@ const Header = () => {
       <div className="header-actions">
         <div className="user-actions">
           <div className="user-avatar">
-            <img src="src\assets\images\user.jpg" alt="User Avatar" />
+            <img src="images/user.jpg" alt="User Avatar" />
           </div>
           <button className="add-btn">
             <i className="fa-solid fa-plus"></i>
