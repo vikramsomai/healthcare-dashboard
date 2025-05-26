@@ -1,0 +1,58 @@
+export const navigationLinks = [
+  {
+    id: "dashboard",
+    name: "Dashboard",
+    icon: "dashboard",
+    category: "general",
+    active: true,
+  },
+  {
+    id: "history",
+    name: "History",
+    icon: "history",
+    category: "general",
+    active: false,
+  },
+  {
+    id: "calendar",
+    name: "Calendar",
+    icon: "calendar_month",
+    category: "general",
+    active: false,
+  },
+  {
+    id: "appointments",
+    name: "Appointments",
+    icon: "add_box",
+    category: "general",
+    active: false,
+  },
+  {
+    id: "statistics",
+    name: "Statistics",
+    icon: "insert_chart",
+    category: "general",
+    active: false,
+  },
+  {
+    id: "chat",
+    name: "Chat",
+    icon: "chat",
+    category: "tools",
+    active: false,
+  },
+  {
+    id: "support",
+    name: "Support",
+    icon: "call",
+    category: "tools",
+    active: false,
+  },
+  {
+    id: "setting",
+    name: "Setting",
+    icon: "settings",
+    category: "tools",
+    active: false,
+  },
+];

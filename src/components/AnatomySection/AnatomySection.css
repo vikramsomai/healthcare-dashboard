@@ -1,0 +1,331 @@
+.anatomy-section {
+  padding: 0px 24px;
+  width: 350px;
+  margin: 0px 10px;
+  height: 540px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.anatomy-container {
+  position: relative;
+  border-radius: 16px;
+  height: 100%;
+  display: flex;
+  background-color: #f5f9ff;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.anatomy-placeholder {
+  height: 540px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.anatomy-placeholder img {
+  object-fit: cover;
+  height: 450px;
+  padding-top: 40px;
+  width: 100%;
+}
+.indicator-text {
+  margin-top: -8px;
+}
+
+.anatomy-figure {
+  position: relative;
+  width: 120px;
+  height: 300px;
+}
+
+.body-outline {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f5f9ff;
+  margin: 0 auto 10px;
+  border: 2px solid #e8f0fe;
+}
+
+.torso {
+  width: 60px;
+  height: 120px;
+  background-color: #f5f9ff;
+  border-radius: 30px 30px 20px 20px;
+  margin: 0 auto 10px;
+  border: 2px solid #e8f0fe;
+}
+
+.arms {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  height: 80px;
+}
+
+.arm {
+  position: absolute;
+  width: 20px;
+  height: 80px;
+  background-color: #f5f9ff;
+  border-radius: 10px;
+  border: 2px solid #e8f0fe;
+}
+
+.arm.left {
+  left: 10px;
+}
+
+.arm.right {
+  right: 10px;
+}
+
+.legs {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.leg {
+  position: absolute;
+  width: 25px;
+  height: 100px;
+  background-color: #f5f9ff;
+  border-radius: 12px;
+  border: 2px solid #e8f0fe;
+}
+
+.health-indicator {
+  position: absolute;
+
+  gap: 4px;
+  padding: 8px 12px;
+  border-radius: 50px;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  background-color: #19dbeb;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.health-indicator.heart {
+  background-color: #dc2626;
+  border-radius: 12px;
+}
+
+.health-indicator.legss {
+  position: absolute;
+
+  background-color: #f5f9ff;
+  border-radius: 12px;
+  background-color: #06b6d4;
+}
+
+.indicator-icon img {
+  height: 12px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.zoom-control {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.zoom-track {
+  width: 80px;
+  height: 4px;
+  background-color: #e2e8f0;
+  border-radius: 50px;
+  position: relative;
+}
+
+.zoom-handle {
+  position: absolute;
+  width: 32px;
+  height: 4px;
+  background-color: #94a3b8;
+  border-radius: 50px;
+  left: 24px;
+}
+
+.zoom-handle::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #94a3b8;
+  border-radius: 50%;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.search-anatomy-btn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 36px;
+  min-height: 36px;
+}
+
+/* Large Desktop: 1440px+ */
+@media (min-width: 1440px) {
+  .anatomy-section {
+    height: 480px;
+    padding: 0px 26px;
+  }
+
+  .anatomy-placeholder {
+    height: 400px;
+  }
+
+  .anatomy-figure {
+    width: 140px;
+    height: 340px;
+  }
+
+  .health-indicator {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}
+
+/* Tablet: 768px - 1023px */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .anatomy-section {
+    height: 480px;
+    width: 400px;
+    padding: 0px 20px;
+  }
+
+  .anatomy-placeholder {
+    height: 360px;
+    margin-top: 40px;
+  }
+  .health-indicator.heart {
+    right: 10% !important;
+    top: 25% !important;
+  }
+  .health-indicator.legss {
+    left: 10% !important;
+    bottom: 28% !important;
+  }
+  .search-anatomy-btn {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+  }
+}
+
+/* Mobile Large: 480px - 767px */
+@media (max-width: 767px) and (min-width: 480px) {
+  .search-anatomy-btn {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+    top: 25px;
+    right: 35px;
+  }
+  .anatomy-section {
+    height: 530px;
+    width: 100%;
+    align-items: flex-start;
+    padding: 16px;
+  }
+  .anatomy-placeholder {
+    height: 540px;
+    align-items: flex-start;
+  }
+  .anatomy-container {
+    display: flex;
+    width: 210px;
+  }
+}
+
+/* Mobile Small: 320px - 479px */
+@media (max-width: 479px) {
+  .anatomy-section {
+    height: 300px;
+    width: 320px;
+    padding: 12px;
+  }
+  .anatomy-placeholder img {
+    object-fit: cover;
+    height: 262px;
+    width: 100%;
+  }
+
+  .anatomy-placeholder {
+    height: 240px;
+  }
+
+  .health-indicator {
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+
+  .search-anatomy-btn {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    top: 20px;
+    right: 20px;
+  }
+
+  .zoom-control {
+    bottom: 8px;
+  }
+
+  .zoom-track {
+    width: 60px;
+  }
+
+  .zoom-handle {
+    width: 24px;
+    left: 18px;
+  }
+}
+@media (max-width: 375px) {
+  .health-indicator.heart {
+    right: 12% !important;
+    top: 25% !important;
+  }
+  .health-indicator.legss {
+    left: 15% !important;
+  }
+}

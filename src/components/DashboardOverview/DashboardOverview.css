@@ -1,0 +1,141 @@
+.dashboard-overview {
+  margin-bottom: 24px;
+  background-color: transparent;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  justify-content: space-between;
+  position: absolute;
+}
+.row {
+  display: flex;
+  width: 48%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2f2e96;
+  margin: 0px 25px;
+}
+
+.dashboard-controls {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.week-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2f2e96;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  min-height: 44px;
+  white-space: nowrap;
+}
+
+.week-selector:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 1440px) {
+  .dashboard-title {
+    font-size: 28px;
+  }
+
+  .dashboard-controls {
+    gap: 40px;
+  }
+
+  .week-selector {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .dashboard-overview {
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .dashboard-title {
+    font-size: 26px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .dashboard-controls {
+    width: 100%;
+    justify-content: space-between;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+  .dashboard-overview {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+
+    margin-bottom: 16px;
+    padding: 0;
+  }
+
+  .dashboard-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .dashboard-controls {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .week-selector {
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 479px) {
+  .dashboard-overview {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+
+  .dashboard-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .dashboard-controls {
+    flex-direction: column;
+    gap: 8px;
+    align-items: stretch;
+  }
+
+  .week-selector {
+    justify-content: center;
+    width: 100%;
+    font-size: 13px;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+}
