@@ -145,27 +145,5 @@
   width: 100%;
   gap: 20px;
   justify-content: center;
-  align-items: flex-start;
-}
-@media (max-width: 565px) {
-  .main-section {
-    grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 479px) {
-  .main-section {
-    margin-left: 0px;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-}
-.main-section {
-  margin-top: 50px;
-  display: flex;
-  width: 100%;
-  gap: 20px;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }

@@ -217,7 +217,7 @@
 /* Mobile Small: 320px - 479px */
 @media (max-width: 479px) {
   .anatomy-section {
-    height: 300px;
+    height: 400px;
     width: 250px;
     padding: 12px;
   }
@@ -230,12 +230,12 @@
   }
   .anatomy-placeholder img {
     object-fit: cover;
-    height: 262px;
+    height: 350px;
     width: 100%;
   }
 
   .anatomy-placeholder {
-    height: 240px;
+    height: 325px;
   }
 
   .health-indicator {
