@@ -29,9 +29,7 @@
 
 .calendar-grid {
   border-radius: 16px;
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); */
-  overflow-x: auto;
-  /* border: 1px solid #e8f0fe; */
+  /* min-width: 700px; */
 }
 
 .calendar-header,
@@ -67,8 +65,11 @@
   font-size: 18px;
   font-weight: 600;
 }
-.navigation-controls {
+.calendar-grid-wrapper {
+  overflow-x: auto;
+  width: 90%;
 }
+
 .nav-button {
   border-radius: 8px;
   border: 1px solid transparent;

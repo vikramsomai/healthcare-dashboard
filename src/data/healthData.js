@@ -9,7 +9,7 @@ export const healthIndicators = [
     id: "legss",
     name: "Healthy Leg",
     status: "healthy",
-    position: { bottom: "35%", left: "-8%" },
+    position: { bottom: "35%", left: "-3%" },
   },
 ];
 
