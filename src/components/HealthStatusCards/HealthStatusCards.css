@@ -162,20 +162,12 @@
     background: #e9edf5;
   }
 
-  .card-icon {
-    width: 36px;
-    height: 36px;
-  }
-
   .card-title {
     font-size: 13px;
   }
 
   .card-date {
     font-size: 11px;
-  }
-  .nav-text {
-    display: none;
   }
 }
 
@@ -199,11 +191,6 @@
   .card-header {
     gap: 10px;
     margin-bottom: 8px;
-  }
-
-  .card-icon {
-    width: 36px;
-    height: 36px;
   }
 
   .card-title {

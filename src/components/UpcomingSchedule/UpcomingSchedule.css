@@ -46,7 +46,7 @@
   }
 
   .day-appointments {
-    gap: 10px;
+    gap: 20px;
     flex-direction: row;
     margin-bottom: 24px;
   }
@@ -63,7 +63,6 @@
   .day-appointments {
     gap: 16px;
     flex-wrap: wrap;
-    flex-direction: row;
     margin-bottom: 20px;
   }
 }
@@ -131,7 +130,6 @@
   .day-appointments {
     flex-wrap: wrap;
     gap: 8px;
-    flex-direction: column;
     width: 100%;
     margin-bottom: 12px;
   }

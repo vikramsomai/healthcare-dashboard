@@ -53,18 +53,6 @@
   font-weight: 500;
 }
 
-.appointment-card.light .appointment-time,
-.appointment-card.light .appointment-doctor {
-  color: #475569;
-}
-
-.appointment-card.indigo .appointment-time,
-.appointment-card.indigo .appointment-doctor {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-/* Large Desktop: 1440px+ */
-/* Large Desktop: 1440px+ */
 @media (min-width: 1440px) {
   .appointment-card {
     padding: 16px;

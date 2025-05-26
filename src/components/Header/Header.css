@@ -9,7 +9,7 @@
   min-height: 80px;
   background-color: transparent;
   gap: 10px;
-  flex-wrap: nowrap; /* Important: prevent wrap */
+  flex-wrap: nowrap;
 }
 
 .search-container {

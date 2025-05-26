@@ -1,7 +1,7 @@
 // src/components/Header/Header.js
 import React from "react";
 import "./Header.css";
-
+import { imageLink } from "../../data/imageLinks";
 const Header = () => {
   return (
     <header className="header">
@@ -26,7 +26,7 @@ const Header = () => {
       <div className="header-actions">
         <div className="user-actions">
           <div className="user-avatar">
-            <img src="images/user.jpg" alt="User Avatar" />
+            <img src={imageLink.user} alt="User Avatar" />
           </div>
           <button className="add-btn">
             <i className="fa-solid fa-plus"></i>

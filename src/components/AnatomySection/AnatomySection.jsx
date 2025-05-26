@@ -1,11 +1,11 @@
 import "./AnatomySection.css";
-
+import { imageLink } from "../../data/imageLinks";
 const AnatomySection = ({ healthIndicators }) => {
   return (
     <div className="anatomy-section">
       <div className="anatomy-container">
         <div className="anatomy-placeholder">
-          <img src="/images/human.png" alt="Anatomy Placeholder" />
+          <img src={imageLink.human} alt="Anatomy Placeholder" />
         </div>
 
         {healthIndicators.map((indicator) => (
@@ -18,12 +18,12 @@ const AnatomySection = ({ healthIndicators }) => {
           >
             {indicator.id === "heart" && (
               <span className="indicator-icon">
-                <img src="images/heart.png" alt="Heart Icon" />
+                <img src={imageLink.heart} alt="Heart Icon" />
               </span>
             )}
             {indicator.id === "legss" && (
               <span className="indicator-icon">
-                <img src="images/leg.png" alt="Leg Icon" />
+                <img src={imageLink.leg} alt="Leg Icon" />
               </span>
             )}
             <span className="indicator-text">{indicator.name}</span>

@@ -1,12 +1,10 @@
-import "./Dashboard.css";
+import "./DashboardMainContent.css";
 import DashboardOverview from "../DashboardOverview/DashboardOverview";
-import AnatomySection from "../AnatomySection/AnatomySection";
-import HealthStatusCards from "../HealthStatusCards/HealthStatusCards";
 import CalendarView from "../CalendarView/CalendarView";
 import UpcomingSchedule from "../UpcomingSchedule/UpcomingSchedule";
 import ActivityFeed from "../ActivityFeed/ActivityFeed";
 
-const Dashboard = ({
+const DashboardMainContent = ({
   healthIndicators,
   healthStatusCards,
   calendarMonth,
@@ -17,15 +15,13 @@ const Dashboard = ({
 }) => {
   return (
     <main className="dashboard-main">
-      {/* <DashboardOverview /> */}
-
       <div className="dashboard-content">
         <div className="dashboard-left">
-          <DashboardOverview />
-          <div className="main-section">
-            <AnatomySection healthIndicators={healthIndicators} />
-            <HealthStatusCards healthStatusCards={healthStatusCards} />
-          </div>
+          <DashboardOverview
+            healthIndicators={healthIndicators}
+            healthStatusCards={healthStatusCards}
+          />
+
           <div className="activity-feed-header">
             <ActivityFeed activityData={activityData} />
           </div>
@@ -45,4 +41,4 @@ const Dashboard = ({
   );
 };
 
-export default Dashboard;
+export default DashboardMainContent;

@@ -1,6 +1,8 @@
 import "./DashboardOverview.css";
+import AnatomySection from "../AnatomySection/AnatomySection";
+import HealthStatusCards from "../HealthStatusCards/HealthStatusCards";
 
-const DashboardOverview = () => {
+const DashboardOverview = ({ healthIndicators, healthStatusCards }) => {
   return (
     <div className="dashboard-overview">
       <div className="row">
@@ -21,6 +23,10 @@ const DashboardOverview = () => {
             </svg>
           </div>
         </div>
+      </div>
+      <div className="main-section">
+        <AnatomySection healthIndicators={healthIndicators} />
+        <HealthStatusCards healthStatusCards={healthStatusCards} />
       </div>
     </div>
   );

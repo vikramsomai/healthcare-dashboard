@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   overflow: hidden;
 }
 
@@ -25,7 +24,6 @@
 .anatomy-placeholder {
   height: 540px;
   display: flex;
-
   align-items: center;
   justify-content: center;
 }
@@ -41,7 +39,6 @@
 
 .health-indicator {
   position: absolute;
-
   gap: 4px;
   padding: 8px 12px;
   border-radius: 50px;

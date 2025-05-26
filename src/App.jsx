@@ -1,5 +1,5 @@
 import "./App.css";
-import Dashboard from "./components/Dashboard/Dashboard";
+import DashboardMainContent from "./components/Dashboard/DashboardMainContent";
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { healthIndicators, healthStatusCards } from "./data/healthData";
@@ -16,7 +16,7 @@ function App() {
       <Sidebar />
       <div className="main-container">
         <Header />
-        <Dashboard
+        <DashboardMainContent
           healthIndicators={healthIndicators}
           healthStatusCards={healthStatusCards}
           calendarMonth={calendarMonth}

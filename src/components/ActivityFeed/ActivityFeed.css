@@ -52,7 +52,6 @@
   justify-content: center;
 }
 
-/* First line - cut into two parts */
 .first-line-container {
   display: flex;
   flex-direction: column;
@@ -88,16 +87,14 @@
   border-radius: 1.5px;
 }
 
-/* Second line - big and centered */
 .second-line {
   width: 4px;
   height: 50px;
-  /* background-color: #22d3ee; */
+
   border-radius: 1.5px;
   align-self: center;
 }
 
-/* Third line - has two parts */
 .third-line {
   display: flex;
   flex-direction: column;
@@ -109,7 +106,7 @@
 .third-line-part1 {
   width: 4px;
   height: 15px;
-  /* background-color: #3b82f6; */
+
   border-radius: 1.5px;
 }
 
@@ -188,6 +185,4 @@
   .day-label {
     font-size: 11px;
   }
-}
-@media (max-width: 480px) {
 }
