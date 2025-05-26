@@ -5,7 +5,7 @@ const AnatomySection = ({ healthIndicators }) => {
     <div className="anatomy-section">
       <div className="anatomy-container">
         <div className="anatomy-placeholder">
-          <img src="src\assets\images\human.png" alt="Anatomy Placeholder" />
+          <img src="/images/human.png" alt="Anatomy Placeholder" />
         </div>
 
         {healthIndicators.map((indicator) => (
