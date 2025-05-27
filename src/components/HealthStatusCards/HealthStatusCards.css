@@ -82,7 +82,6 @@
   transition: width 0.3s ease;
 }
 
-/* Large Desktop: 1440px+ */
 @media (min-width: 1440px) {
   .health-status-cards {
     gap: 20px;
@@ -141,7 +140,7 @@
     height: 8px;
   }
 }
-/* Tablet: 768px - 1023px */
+
 @media (max-width: 1023px) and (min-width: 768px) {
   .health-status-cards {
     gap: 14px;
@@ -171,7 +170,6 @@
   }
 }
 
-/* Mobile Large: 480px - 767px */
 @media (max-width: 767px) and (min-width: 480px) {
   .health-status-cards {
     gap: 12px;
@@ -206,7 +204,6 @@
   }
 }
 
-/* Mobile Small: 320px - 479px */
 @media (max-width: 479px) {
   .health-status-cards {
     gap: 10px;
