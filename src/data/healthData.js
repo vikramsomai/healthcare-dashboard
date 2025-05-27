@@ -1,3 +1,4 @@
+import { imageLink } from "./imageLinks";
 export const healthIndicators = [
   {
     id: "heart",
@@ -19,7 +20,7 @@ export const healthStatusCards = [
     name: "Lungs",
     date: "26 Oct 2021",
     status: 80,
-    image: "images/lungs.png",
+    image: imageLink.lungs,
     color: "#ef4444",
   },
   {
@@ -27,7 +28,7 @@ export const healthStatusCards = [
     name: "Teeth",
     date: "26 Oct 2021",
     status: 80,
-    image: "images/teeth.png",
+    image: imageLink.teeth,
     color: "#93D6CB",
   },
   {
@@ -35,7 +36,7 @@ export const healthStatusCards = [
     name: "Bone",
     date: "26 Oct 2021",
     status: 80,
-    image: "images/bone.png",
+    image: imageLink.bone,
     color: "#F5654F",
   },
 ];

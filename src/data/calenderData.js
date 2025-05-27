@@ -1,3 +1,4 @@
+import { imageLink } from "./imageLinks";
 export const calendarMonth = {
   month: "October",
   year: 2021,
@@ -56,7 +57,7 @@ export const appointmentCards = [
     title: "Dentist",
     time: "09:00-11:00",
     doctor: "Dr. Cameron Williamson",
-    icon: "images/teeth.png",
+    icon: imageLink.teeth,
     color: "indigo",
   },
   {
@@ -64,7 +65,7 @@ export const appointmentCards = [
     title: "Physiotherapy Appointment",
     time: "11:00-12:00",
     doctor: "Dr. Kevin Dones",
-    icon: "images/muscle.png",
+    icon: imageLink.muscle,
     color: "light",
   },
 ];
